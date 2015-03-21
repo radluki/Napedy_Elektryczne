@@ -25,7 +25,7 @@ Dawid Legutki \and Piotr Merynda \and Damian Paciuch \and Maciej Podsiadło \and
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=10cm]{schemat_stanowiska}
+\includegraphics[width=10cm]{tabele/schemat_stanowiska}
 \end{figure}
 \nopagebreak
 \subsection{Dane znamionowe silników}
@@ -70,7 +70,7 @@ Zmierzoną wartość prądu przeskalowaliśmy zgodnie z wzorem:
 \subsection{Wyniki}
 	\begin{figure}[H]
 	\centering
-	\includegraphics[width=13 cm]{ch_klatkowy}
+	\includegraphics[width=13 cm]{wykresy/ch_klatkowy}
 	\end{figure}
 \subsection{Wnioski}
 \begin{itemize}
@@ -87,7 +87,7 @@ Dokonaliśmy dwóch pomiarów z dodatkową rezystancją podłączoną do wirnika
 \subsection{Wyniki}
 	\begin{figure}[H]
 	\centering
-	\includegraphics[width=\ZMa cm]{ch_mechaniczna_pierscieniowy}
+	\includegraphics[width=\ZMa cm]{wykresy/ch_mechaniczna_pierscieniowy}
 	\end{figure}
 \paragraph{Wpływ podłączenia dodatkowego oporu na ch. mechaniczną:}
 \begin{itemize}
@@ -97,7 +97,7 @@ Dokonaliśmy dwóch pomiarów z dodatkową rezystancją podłączoną do wirnika
 \end{itemize}
 	\begin{figure}[H]
 	\centering
-	\includegraphics[width=\ZMa cm]{ch_pradowa_pierscieniowy}
+	\includegraphics[width=\ZMa cm]{wykresy/ch_pradowa_pierscieniowy}
 	\end{figure}
 \paragraph{Wpływ podłączenia dodatkowego oporu na ch. prądową:}
 	\begin{itemize}
@@ -109,7 +109,7 @@ Dokonaliśmy dwóch pomiarów z dodatkową rezystancją podłączoną do wirnika
 	\subsection{Tabela z pomiarami}
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=7cm]{jalowy_tab}
+			\includegraphics[width=7cm]{tabele/jalowy_tab}
 		\end{figure}
 Po wykonaniu pomiarów zweryfikowaliśmy poprawność wyników:
 \begin{equation}
@@ -127,11 +127,11 @@ Gdzie poszczególne moce oznaczają kolejno straty w miedzi(obwodzie stojana), �
 \subsection{Charakterystyka mocy}
 	\begin{figure}[H]
 			\centering
-			\includegraphics[width=\ZMa cm]{jalowy_moc}
+			\includegraphics[width=\ZMa cm]{wykresy/jalowy_moc}
 	\end{figure}
 Z wykresu otrzymaliśmy wartość strat mechanicznych oraz zależność strat w żelazie od kwadratu napięcia.
 \begin{equation}
-	P_m=202W
+	P_m=202W/3=67.3W
 \end{equation}
 \begin{equation}
 	P_{Fe}=0.00044U^2
@@ -141,27 +141,39 @@ Z wykresu otrzymaliśmy wartość strat mechanicznych oraz zależność strat w 
 \subsection{Tabela z pomiarami}
 	\begin{figure}[H]
 			\centering
-			\includegraphics[width=7cm]{obciazenie_tab}
+			\includegraphics[width=7cm]{tabele/obciazenie_tab}
 	\end{figure}
 	
 Bilans mocy dany jest równaniem 7, ale tym razem $P_2$ nie równa się zero nie można też pominąć $P_{wir}$
 \begin{equation}
-	P_{wir}=(P-P_{Cu}-P_{Fe})s_n
+	P_{wir}=(P-P_{Cu}-P_{Fe})s
 \end{equation}
 \begin{equation}
 	P_2=P-P_{Cu}-P_{Fe}-P_{m}-P_{wir}-\Delta P_{dodatkowe}
 \end{equation}	
 $\Delta P_{dodatkowe}$ wynosi $0.5\%$ $P$
-%\subsection{Wyniki}
-%	\begin{figure}[H]
-%			\centering
-%			\includegraphics[width=3cm]{wyniki_tab}
-%	\end{figure}
 \nopagebreak
 	\begin{figure}[H]
 			\centering
-			\includegraphics[width=12 cm]{ch_obciazeniowa2}
+			\includegraphics[width=12 cm]{wykresy/ch_obciazeniowa}
 	\end{figure}
+
+\subsection{Pozostałe charakterystyki dla próby obciążeniowej}
+	\begin{figure}[H]
+			\centering
+			\includegraphics[width=9 cm]{wykresy/o_prad}
+	\end{figure}
+	\begin{figure}[H]
+			\centering
+			\includegraphics[width=9 cm]{wykresy/o_obroty}
+	\end{figure}
+	\nopagebreak
+	\begin{figure}[H]
+			\centering
+			\includegraphics[width=9 cm]{wykresy/o_fi}
+	\end{figure}
+	
+	
 \end{document}
 
 
