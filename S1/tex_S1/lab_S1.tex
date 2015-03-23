@@ -11,25 +11,67 @@
 \title{Sprawozdanie z ćwiczenia A3}
 \author{ 
 Dawid Legutki \and Piotr Merynda \and Damian Paciuch \and Maciej Podsiadło \and Łukasz Radzio}
-\date{Data ćwiczenia: 16.03.2015}
+\date{Data ćwiczenia: 23.03.2015}
 
 \newtheorem{Def}{Definicja}
 
 \newcommand{\LT}[1]{\mathcal{L}\{#1\}}
 \newcommand{\iLT}[1]{\mathcal{L}^{-1}\{#1\}}
-\newcommand{\ZMa}{17}
-
+\newcommand{\ZMa}{12}
+\newcommand{\obrazek}[2]
+{
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=#1 cm]{#2}
+	\end{figure}
+}
+\newcommand{\obrazeko}[3]
+{
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=#1 cm]{#2}
+	\caption{#3}
+	\end{figure}
+}
 
 \begin{document}
 \maketitle
+\section{Dane znamionowe}
+\subsection{Prądnica synchroniczna}
+	\obrazek{8}{tabele/pradnica}
+	\subsection{Silnik prądu stałego}
+	\obrazek{8}{tabele/silnik}
+\section{Charakterystyka biegu jałowego}
+	\obrazek{5}{tabele/jalowy}
+Charakterystykę biegu jałowego wykonywaliśmy przy rozwarty uzwojeniu twornika. Pomiary wykonywaliśmy najpierw zwiększając natężenie prądu wzbudnika od 0 do 10A, a następnie je zmniejszając.
+	\obrazek{12}{wykresy/jalowy}
+Na wykresie wyraźnie widoczna jest pętla histerezy. Ma ona związek z magnesowaniem wirnika, przez co w drugim pomiarze wytwarzany strumień jest silniejszy, a więc i napięcie indukowane jest silniejsze. 
+Dla dużych wartości natężenia napięcie wzrasta z prądem coraz wolniej. Jest to spowodowane nasyceniem magnetycznym rdzenia wzbudnika.
+
+\section{Charakterystyka zwarcia}
+	\obrazek{12}{wykresy/zwarcie}
+	W myśl reguły Lenza wytworzone pole magnetyczne przeciwdziała przyczynie która je wzbudziła. Zmiany pola indukujące prąd w tworniku są wprost proporcjonalne do natężenia prądu wzbudnika oraz prędkości obrotowej(dla maszyny synchronicznej const). Ze względu na zwarcie obwodu twornika nic nie ogranicza jego reakcji więc charakterystyka jest liniowa.
+	
+\section{Charakterystyka zewnętrzna $\cos\phi=1$}
+	\obrazek{8}{tabele/cosfi1}
+	\obrazek{12}{wykresy/cosfi1} 
+W wyniku zmniejszenia prądu wzbudnika charakterystyka przesuwa się w dół. Jest to wynikiem osłabiania strumienia.
+Kształt charakterystyki można wytłumaczyć tym, że prądnica synchroniczna posiada impedancję wewnętrzną. Impedancja ta ma charakter indukcyjny (będzie to miało znaczenie przy interpretacji charakterystyk zewnętrznych przy $\cos \phi \neq 0$).
+
+\section{Charakterystyka zewnętrzna $\cos\phi\neq1$}
+	\obrazek{5}{tabele/cosfinie1}
+	\obrazek{12}{wykresy/cosfinie1}
+	\obrazek{12}{wykresy/wytlumaczenie}\footnote{rysunek pochodzący z:\newline http://bezel.com.pl/index.php/maszyny-elektryczne/maszyny-synchroniczne}
+	Ze względu na to, że impedancja wewnętrzna ma charakter indukcyjny, to przy obciążeniu pojemnościowym reaktancja maleje. Przy reaktancji wewnętrznej równej reaktancji zewnętrznej otrzymujemy rezonans napięć. Jest to powodem dla którego charakterystyki RC i R idą początkowo w górę. 
+	Wyniki naszych pomiarów przedstawiają początkowy fragment powyższego wykresu.
+	Całe wytłumaczenie można przedstawić w postaci równania:
+	\begin{equation}
+	U=\frac{|E||Z|}{|Z_w+Z|}\approx \frac{|E||Z|}{|jX_L+Z|}
+	\end{equation}
 
 
-
-
-
-
-
-
+\section{Charakterystyka regulacyjna}
+	\obrazek{12}{wykresy/regula}
 
 
 
