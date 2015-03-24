@@ -50,7 +50,8 @@ Dla dużych wartości natężenia napięcie wzrasta z prądem coraz wolniej. Jes
 
 \section{Charakterystyka zwarcia}
 	\obrazek{12}{wykresy/zwarcie}
-	W myśl reguły Lenza wytworzone pole magnetyczne przeciwdziała przyczynie która je wzbudziła. Zmiany pola indukujące prąd w tworniku są wprost proporcjonalne do natężenia prądu wzbudnika oraz prędkości obrotowej(dla maszyny synchronicznej const). Ze względu na zwarcie obwodu twornika nic nie ogranicza jego reakcji więc charakterystyka jest liniowa. Charakterystyka zwarcia nie zależy jednak od prędkości obrotowej, jest to spowodowane tym że zwiększając prędkość zwiększamy proporcjonalnie napięcie twornika, ale także i reaktancję prądnicy, możemy napisać, że $Z_w \approx jX_L= j\omega L \sim n$. 
+	W myśl reguły Lenza wytworzone pole magnetyczne przeciwdziała przyczynie która je wzbudziła. Zmiany pola indukujące prąd w tworniku są wprost proporcjonalne do natężenia prądu wzbudnika oraz prędkości obrotowej(dla maszyny synchronicznej n=const.). Charakterystyka zwarcia nie zależy jednak od prędkości obrotowej, jest to spowodowane tym że zwiększając prędkość zwiększamy proporcjonalnie napięcie twornika, ale także i reaktancję prądnicy, możemy napisać, że $Z_w \approx jX_L= j\omega L \sim n$. 
+	Zależność $I_s(I_f)$ jest liniowa ponieważ pole magnetyczne twornika zapobiega nasyceniu wirnika.
 	
 \section{Charakterystyka zewnętrzna $\cos\phi=1$}
 	\obrazek{8}{tabele/cosfi1}
@@ -62,17 +63,21 @@ Kształt charakterystyki można wytłumaczyć tym, że prądnica synchroniczna p
 	\obrazek{5}{tabele/cosfinie1}
 	\obrazek{12}{wykresy/cosfinie1}
 	\obrazek{12}{wykresy/wytlumaczenie}\footnote{rysunek pochodzący z:\newline http://bezel.com.pl/index.php/maszyny-elektryczne/maszyny-synchroniczne}
-	Ze względu na to, że impedancja wewnętrzna ma charakter indukcyjny, to przy obciążeniu pojemnościowym reaktancja maleje. Przy reaktancji wewnętrznej równej reaktancji zewnętrznej otrzymujemy rezonans napięć. Jest to powodem dla którego charakterystyki RC i R idą początkowo w górę. 
+	Ze względu na to, że impedancja wewnętrzna ma charakter indukcyjny, to przy obciążeniu pojemnościowym reaktancja maleje. Przy reaktancji wewnętrznej równej reaktancji zewnętrznej otrzymujemy rezonans napięć. Jest to powodem dla którego charakterystyki RC i C idą początkowo w górę. 
 	Wyniki naszych pomiarów przedstawiają początkowy fragment powyższego wykresu.
-	Całe wytłumaczenie można przedstawić w postaci równania:
+	Całe wytłumaczenie można przedstawić w postaci równań:
 	\begin{equation}
-	U=\frac{|E||Z|}{|Z_w+Z|}\approx \frac{|E||Z|}{|jX_L+Z|}
+	I_s=\frac{|E|}{|Z_w+Z|}\approx \frac{|E|}{|jX_L+Z|}
+	\end{equation}
+	\begin{equation}
+	U_s=I_s|Z|
 	\end{equation}
 
 
 \section{Charakterystyka regulacyjna}
 	\obrazek{12}{wykresy/regula}
-
+Pomiary wykonywane były pod stałym napięciem twornika równym 250V. Charakterystyka mówi o tym jaki prąd należy podać na wzbudnik aby otrzymać stałe napięcie na obciążeniu zewnętrznym dla którego prąd $I_s$ jest ustalony(zależny od impedancji). 
+Z wykresu wynika, że pod obciążeniem pojemnościowym do utrzymania napięcia wystarcza mniejszy prąd wirnika. Przyczyną jest zmniejszanie impedancji całego układu.
 
 
 
