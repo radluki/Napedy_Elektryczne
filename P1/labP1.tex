@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage{graphicx}
+
+\usepackage{float}
+
+\title{Sprawozdanie z ćwiczenia P1}
+\author{ 
+Dawid Legutki \and Piotr Merynda \and Damian Paciuch \and Maciej Podsiadło \and Łukasz Radzio}
+\date{Data ćwiczenia: 30.03.2015}
+
+\newcommand{\obrazek}[2]
+{
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=#1 cm]{#2}
+	\end{figure}
+}
+\newcommand{\obrazeko}[3]
+{
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=#1 cm]{#2}
+	\caption{#3}
+	\end{figure}
+}
+
+\begin{document}
+\maketitle
+\section{Dane znamionowe silników}
+	\obrazek{12}{tabele/DZ_obcowzbudny}
+	\obrazek{12}{tabele/DZ_szeregowy}
+\section{Charakterystyki silnika obcowzbudnego}
+
+	\obrazek{12}{wykresy/Obcowzbudny}
+	\input{Opis/wnioski_obcowzbudny.txt}
+	
+\section{Charakterystyki silnika szeregowego}
+
+	\obrazek{12}{wykresy/Szeregowy}
+	\input{Opis/wnioski_szeregowy.txt}
+	
+\section{Charakterystyka rozruchowa silnika szeregowego}
+
+	\obrazek{12}{wykresy/Rozruchowa}
+	\input{Opis/wnioski_rozruchowa.txt}
+
+
+
+\end{document}
