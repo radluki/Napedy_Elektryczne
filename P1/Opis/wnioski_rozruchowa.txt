@@ -1,0 +1,12 @@
+% Tutaj należy wpisać wnioski do charakterystyki wykresy/Rozruchowa.png
+% Możesz napisać cały paragraf bądź krótko powyliczać używając notacji 
+%\begin{itemize}
+%	\item Pierwszy wniosek
+%	\item Drugi wniosek
+%\end{itemize}
+% To co zaczyna się od "%" jest komentarzem.
+\subsection{Wnioski}
+\begin{itemize}
+	\item 
+	\item 
+\end{itemize}
