@@ -1,4 +1,4 @@
-% Tutaj należy wpisać wnioski do charakterystyki wykresy/Obcowzbudny.png
+﻿% Tutaj należy wpisać wnioski do charakterystyki wykresy/Obcowzbudny.png
 % Możesz napisać cały paragraf bądź krótko powyliczać używając notacji 
 %\begin{itemize}
 %	\item Pierwszy wniosek
@@ -7,6 +7,7 @@
 % To co zaczyna się od "%" jest komentarzem.
 \subsection{Wnioski}
 \begin{itemize}
-	\item 
-	\item 
+	\item Zależność prędkości obrotowej n od prądu I daje się przybliżyć linią prostą - jest ona liniowa (Dla ustalonego prądu wzbudzenia I2 i napięcia U).
+	\item Kąt nachylenia prostej zależy od dołączonej oporności. Dla Rd = 0 proste są równoległe mimo różnych watrości I2 i U. Gdy Rd > 0, dla tych samych wartości I2 i U prosta zmienia jedynie swoje nachylenie.  
+	\item Wraz z maleniem napięcia U i wzrostem prądu wzbudzenia I2, maleje prędkość obrotowa. Prosta zachowuje swoje nachylenie, jednak jej wartości maleją.
 \end{itemize}
