@@ -1,4 +1,4 @@
-﻿% Tutaj należy wpisać wnioski do charakterystyki wykresy/Rozruchowa.png
+% Tutaj należy wpisać wnioski do charakterystyki wykresy/Rozruchowa.png
 % Możesz napisać cały paragraf bądź krótko powyliczać używając notacji 
 %\begin{itemize}
 %	\item Pierwszy wniosek
@@ -9,5 +9,5 @@
 \begin{itemize}
 	\item Charakterystyka staje się prostoliniowa przy większych obciążeniach (znamionowych)
 	\item Z powodu nasyceń zmianom prądu odpowiadają bardzo małe zmiany strumienia
-	\item Podczas rozruchu silnika szeregowego mamy do czynienia z liniową zależnością M ~ I
+	\item Podczas rozruchu silnika szeregowego mamy do czynienia z liniową zależnością M $\sim $ I
 \end{itemize}

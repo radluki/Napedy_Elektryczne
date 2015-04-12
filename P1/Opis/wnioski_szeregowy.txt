@@ -7,6 +7,11 @@
 % To co zaczyna się od "%" jest komentarzem.
 \subsection{Wnioski}
 \begin{itemize}
-	\item 
-	\item 
+	\item Charakterystyka kształtem przypomina hiperbolę, co jest zgodne z modelem matematycznym w którym przyjmuje się, że strumień jest wprost proporcjonalny do prądu, co jest prawdą dla małych wartości, w przeciwnym wypadku następuje nasycenie.
+	\item Dodatkowy opór włączony szeregowo do uzwojenia wirnika powoduje obniżenie charakterystyki, tzn. zmniejszenie prędkości obrotowej dla tego samego prądu.
+	\item Zmniejszenie napięcia zasilania wirnika powoduje obniżenie charakterystyki, zmniejszenie prędkości jest większe dla mniejszych prądów.
+	\item Obserwacje zgadzają się z modelem matematycznym:
+	\begin{equation}
+		n=\frac{U}{c_2I}-\frac{R_d+R_r}{c_2}
+	\end{equation}
 \end{itemize}
