@@ -44,11 +44,41 @@ Dawid Legutki \and Piotr Merynda \and Damian Paciuch \and Maciej Podsiadło \and
 
 	\obrazek{12}{wykresy/Szeregowy}
 	\input{Opis/wnioski_szeregowy.txt}
+	
+	
+	\subsection{Wyprowadzenie wzoru nr 1}
+	Równania silnika szeregowego, przy założeniu że strumień jest wprost proporcjonalny do prądu:
+	\begin{equation}
+	U=E+(R_d+R_r)I
+	\end{equation}
+	\begin{equation}
+	E=c\Phi n=c_2 In
+	\end{equation}
 	Po podstawieniu wzoru nr 3 do 2 otrzymuje się wzór na charakterystykę:
 	\begin{equation}
 	n=\frac{U-(R_d+R_r)I}{c_2 I}=\frac{U}{c_2 I} - \frac{R_d+R_r}{c_2}
 	\end{equation}
-	
+	\subsection{Weryfikacja modelu}
+	\obrazek{12}{wykresy/U150Rd0}
+	\obrazek{12}{wykresy/U120Rd0}
+	\paragraph{Obserwacje}
+		\begin{itemize}
+			\item prędkość obrotowa jest wprost proporcjonalna do odwrotności prądu
+			\item Zastanawiający jest fakt, że współczynniki b prostych aproksymujących są większe od zera. Jest to niezgodne z wzorem nr 1.
+		\end{itemize}
+	\obrazek{12}{wykresy/U150Rd1}
+	\paragraph{Obserwacje}
+		\begin{itemize}
+			\item Dołączenie szeregowe dodatkowej rezystancji powoduje obniżenie charakterystyki. 
+			\item Współczynnik \textbf{b} jest ujemny i mniejszy niż dla $R_d=0$
+			\item Niezgodna ze wzorem jest zmiana współczynnika \textbf{a} prostej aproksymującej. Dla $R_d=0$ wynosił on $16632$, a dla $R_d>0$ $17356$. Różnica jest na poziomie 5\%.
+		\end{itemize}
+	\paragraph{Wnioski}
+		\begin{itemize}
+			\item Wzór nr 1 nie opisuje silnika szeregowego w sposób dokładny.
+			\item Jest to spowodowane przyjętym założeniem: $\Phi = c_3 I$, gdzie $c_3 = const$
+			\item W rzeczywistości strumień się nasyca i jego zależność od prądu jest coraz słabsza ze wzrostem prądu.
+		\end{itemize}
 \section{Charakterystyka rozruchowa silnika szeregowego}
 
 	\obrazek{12}{wykresy/Rozruchowa}
