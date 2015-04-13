@@ -15,5 +15,13 @@
 		n=\frac{U}{c_2I}-\frac{R_d+R_r}{c_2}
 	\end{equation}
 	
+	\subsection{Wyprowadzenie wzoru nr 1}
+	Równania silnika szeregowego, przy założeniu że strumień jest wprost proporcjonalny do prądu:
+	\begin{equation}
+	U=E+(R_d+R_r)I
+	\end{equation}
+	\begin{equation}
+	E=c\Phi n=c_2 In
+	\end{equation}
 	
 \end{itemize}
