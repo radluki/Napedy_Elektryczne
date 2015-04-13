@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.2)  13 APR 2015 12:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.2)  13 APR 2015 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,38 +428,59 @@ File: wykresy/Szeregowy.png Graphic file (type png)
 <use wykresy/Szeregowy.png>
 Package pdftex.def Info: wykresy/Szeregowy.png used on input line 45.
 (pdftex.def)             Requested size: 341.43306pt x 259.08376pt.
- (./Opis/wnioski_szeregowy.txt [2 <./wykresy/Obcowzbudny.png (PNG copy)>] [3 <.
-/wykresy/Szeregowy.png (PNG copy)>])
-<wykresy/Rozruchowa.png, id=26, 529.98pt x 517.935pt>
+ (./Opis/wnioski_szeregowy.txt [2 <./wykresy/Obcowzbudny.png (PNG copy)>]) [3 <
+./wykresy/Szeregowy.png (PNG copy)>]
+<wykresy/U150Rd0.png, id=26, 680.5425pt x 426.59375pt>
+File: wykresy/U150Rd0.png Graphic file (type png)
+
+<use wykresy/U150Rd0.png>
+Package pdftex.def Info: wykresy/U150Rd0.png used on input line 62.
+(pdftex.def)             Requested size: 341.43306pt x 214.02538pt.
+
+<wykresy/U120Rd0.png, id=27, 639.38875pt x 378.41376pt>
+File: wykresy/U120Rd0.png Graphic file (type png)
+
+<use wykresy/U120Rd0.png>
+Package pdftex.def Info: wykresy/U120Rd0.png used on input line 63.
+(pdftex.def)             Requested size: 341.43306pt x 202.07115pt.
+ [4 <./wykresy/U150Rd0.png (PNG copy)>]
+<wykresy/U150Rd1.png, id=31, 621.32124pt x 415.5525pt>
+File: wykresy/U150Rd1.png Graphic file (type png)
+
+<use wykresy/U150Rd1.png>
+Package pdftex.def Info: wykresy/U150Rd1.png used on input line 69.
+(pdftex.def)             Requested size: 341.43306pt x 228.35802pt.
+ [5 <./wykresy/U120Rd0.png (PNG copy)> <./wykresy/U150Rd1.png (PNG copy)>] <wyk
+resy/Rozruchowa.png, id=36, 529.98pt x 517.935pt>
 File: wykresy/Rozruchowa.png Graphic file (type png)
 
 <use wykresy/Rozruchowa.png>
-Package pdftex.def Info: wykresy/Rozruchowa.png used on input line 54.
+Package pdftex.def Info: wykresy/Rozruchowa.png used on input line 84.
 (pdftex.def)             Requested size: 341.43306pt x 333.6743pt.
- (./Opis/wnioski_rozruchowa.txt [4]) [5 <./wykresy/Rozruchowa.png (PNG copy)>] 
+ (./Opis/wnioski_rozruchowa.txt [6]) [7 <./wykresy/Rozruchowa.png (PNG copy)>] 
 (./labP1.aux) ) 
 Here is how much of TeX's memory you used:
- 2490 strings out of 494952
- 32227 string characters out of 6179606
+ 2507 strings out of 494952
+ 32567 string characters out of 6179606
  89903 words of memory out of 5000000
- 5659 multiletter control sequences out of 15000+600000
- 11913 words of font info for 32 fonts, out of 8000000 for 9000
+ 5672 multiletter control sequences out of 15000+600000
+ 12689 words of font info for 33 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 37i,6n,23p,318b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/luki/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600
-pk> </home/luki/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/l
-uki/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/luki/.texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/luki/.texmf-var/fonts/pk/
-ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-
-Output written on labP1.pdf (5 pages, 6681318 bytes).
+ 37i,6n,23p,318b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/luki/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600
+pk> </home/luki/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/l
+uki/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/luki/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/luki/.texmf-var/fonts/pk/
+ljfour/jknappen/ec/ecrm1440.600pk> </home/luki/.texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecrm2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on labP1.pdf (7 pages, 6755420 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 255 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
