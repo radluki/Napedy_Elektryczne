@@ -9,5 +9,5 @@
 \begin{itemize}
 	\item Charakterystyka staje się prostoliniowa przy większych obciążeniach (znamionowych)
 	\item Z powodu nasyceń zmianom prądu odpowiadają bardzo małe zmiany strumienia
-	\item Podczas rozruchu silnika szeregowego mamy do czynienia z liniową zależnością M $\sim $ I
+	\item Podczas rozruchu silnika szeregowego mamy do czynienia z liniową zależnością między momentem obrotowym, a prądem (T $\sim $ I).
 \end{itemize}
