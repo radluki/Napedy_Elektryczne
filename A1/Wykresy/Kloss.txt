@@ -1,0 +1,3 @@
+\subsection{Obserwacje}
+Wzór Klossa bardzo dobrze przybliża charakterystykę maszyny indukcyjnej dla wartości poślizgu $s>0$, czyli podczas pracy silnikowej.
+Dla ujemnych wartości poślizgu można zaobserwować dużą niezgodność z danymi doświadczalnymi.

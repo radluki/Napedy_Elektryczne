@@ -1,0 +1,2 @@
+\subsection{Obserwacje}
+Zwiększenie częstotliwości spowodowało przesunięci charakterystyki w prawo, tzn. wzrost prędkości obrotowej dla stałego momentu obrotowego.

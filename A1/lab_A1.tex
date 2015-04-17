@@ -1,0 +1,61 @@
+\documentclass[12pt]{article}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage{graphicx}
+
+\usepackage{float}
+
+\title{Sprawozdanie z ćwiczenia S1}
+\author{ 
+Dawid Legutki \and Piotr Merynda \and Damian Paciuch \and Maciej Podsiadło \and Łukasz Radzio}
+\date{Data ćwiczenia: 13.04.2015}
+
+\newtheorem{Def}{Definicja}
+
+\newcommand{\LT}[1]{\mathcal{L}\{#1\}}
+\newcommand{\iLT}[1]{\mathcal{L}^{-1}\{#1\}}
+\newcommand{\ZMa}{12}
+\newcommand{\obrazek}[2]
+{
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=#1 cm]{#2}
+	\end{figure}
+}
+\newcommand{\obrazeko}[3]
+{
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=#1 cm]{#2}
+	\caption{#3}
+	\end{figure}
+}
+
+\begin{document}
+\maketitle
+
+\section{Charakterystyka mechaniczna}
+
+\obrazek{12}{Wykresy/Mechaniczna}
+\input{Wykresy/Mechaniczna.txt}
+
+\section{Charakterystyka z częścią prądnicową}
+\obrazek{12}{Wykresy/Kloss}
+\input{Wykresy/Kloss.txt}
+
+
+\section{Rozruch trójkąt-gwiazda}
+
+
+
+
+
+
+
+
+
+
+\end{document}
