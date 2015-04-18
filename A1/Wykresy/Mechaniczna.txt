@@ -3,7 +3,7 @@ Zwiększenie częstotliwości spowodowało przesunięci charakterystyki w prawo,
 \subsection{Wnioski}
 \begin{itemize}
 	\item Zasilanie silnika asynchronicznego poprzez falownik umożliwia dokładną stabilizację prędkości obrotowej przy zmiennym momencie obciążenia.
-	\item Zwiększenie częstotliwości napięcia, którym zasilamy silnik powoduję wzrost prędkości wirowania pola magnetycznego względem stojana - wzrost prędkości synchronicznej. 
+	\item Zwiększenie częstotliwości napięcia, którym zasilamy silnik powoduje wzrost prędkości wirowania pola magnetycznego względem stojana - wzrost prędkości synchronicznej. 
 		Zależność ta jest liniowa: $n = 60f/p$;
 
 \end{itemize}
