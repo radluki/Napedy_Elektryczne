@@ -1,1 +1,6 @@
 \subsection{Obserwacje}
+Kiedy styki przy rozruchu znajdują się w konfiguracji typu gwiazda(3 - 7,5 sec) prąd rozruchowy silnika zostaje zmniejszony około trzykrotnie.
+Dodatkowo spadki napięć w instalacji są mniejsze. Nie mamy również do czynienia z prądami udarowymi mogących powodować nagrzewanie się uzwojeń.
+Przy ponownym przełączeniu w trójkąt(w ~7,5 sec) mamy do czynienia z krótkim udarem prądowym trwającym kilka mili sekund. Jeśli przełączenie
+nastąpiłoby zbyt wcześnie wówczas przebieg czasowy prądu udarowego przyjąłby wartości jak dla
+uzwojenia połączonego w trójkąt.
