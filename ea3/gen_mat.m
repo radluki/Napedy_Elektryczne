@@ -4,10 +4,10 @@
 files = {'AC182.csv','r_tyrystorowy.csv','wyprostowane152.csv','nV.csv'};
 convert_csv_mat(files)
 
-files = {'AC182.mat','r_tyrystorowy.mat','wyprostowane152.mat','nV.mat'};
+
 %}
  %% analysing AC powered motor
-
+files = {'AC182.mat','r_tyrystorowy.mat','wyprostowane152.mat','nV.mat'};
 close all
 figure(1)
 hold on
