@@ -1,0 +1,1 @@
+Tyrystor jest elementem elektronicznym, pó³przewodnikowym, który powszechnie stosuje siê w przekszta³tnikach o fazowym sterowaniu. Przy stanowisku ea3 regulator tyrystorowy zosta³ u¿yty do regulacji prêdkoœci obrotowej silnika uniwersalnego poprzez zmianê wartoœci skutecznej napiêcia.
