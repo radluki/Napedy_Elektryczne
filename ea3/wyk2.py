@@ -23,12 +23,12 @@ for filename in nazwy:
 	Podsil = P0 + Pcu + Pod
 	T = Podsil / (2*np.pi/60*data['n'])
 	ni = Podsil / data['P']*100
-	plt.scatter(data['n'],ni,color=colors[i],label=labels[i])
+	plt.scatter(Podsil,ni,color=colors[i],label=labels[i])
 	
 	#print(data['n'])
 	# interpolacja
-	q = np.linspace(min(data['n']),max(data['n']),100)
-	z = np.polyfit(data['n'],ni,1)
+	q = np.linspace(min(Podsil),max(Podsil),100)
+	z = np.polyfit(Podsil,ni,1)
 	p = np.poly1d(z)
 	plt.plot(q,p(q),color = colors[i])
 	plt.figure(2)
@@ -40,7 +40,7 @@ for filename in nazwy:
 	i=i+1
 plt.figure(1)
 plt.title('Sprawność')
-plt.xlabel('prędkość obrotowa n [obr/min]')
+plt.xlabel('P_{odsil} [W]')
 plt.ylabel('sprawność $\eta$ [%]')
 plt.legend(loc = 'lower right')
 plt.savefig('Sprawnosc.eps')
