@@ -1,0 +1,9 @@
+Silnik indukcyjny jednofazowy:
+	
+	Wprowadzenie:
+		- Silnik indukcyjny jednofazowy nie posiada momentu rozruchowego. ¯eby go wytworzyæ umieszcza siê uzwojenie dodatkowe przesuniêtê wzglêdem fazy roboczej o k¹t elektryczny ~90 stopni. Powstaje wtedy pole wiruj¹ce, które umo¿liwia rozruch. Do wytworzenia przesuniêcia fazowego stosuje siê kondensator. Nale¿y dodaæ, ¿e silniki indukcyjne trójfazowe mog¹ pracowaæ na jednej fazie, z tym ¿e ze znacznie mniejszym obci¹¿eniem.
+
+Silnik indukcyjny ze zwojem zwartym:
+	
+	Wprowadzenie:
+		- Zwój zwarty umo¿liwia powstanie momentu rozruchowego. Ze wzglêdu na ma³¹ sprawnoœæ silniki ze zwojem zwartym s¹ u³amkowej mocy (przyjmuje siê, ¿e do 100 W).
