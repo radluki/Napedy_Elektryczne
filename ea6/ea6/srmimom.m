@@ -7,8 +7,9 @@ clear; clear all;
 
 %Wyniki pomiarów:
 %Uwaga: moment elektromagnetyczny silnika pomiarowy: Tepom = mgr - Ttarcia
-fipom=[];	%k¹ty zmierzone[deg]
-mgr  =[ ];	%momenty zmierzone [Nm]
+fipom=[255.54,253.02,251.26,250.56,249.5,249.5,247.74,247.74,247.39,244.93,241.76,240]-240;	%k¹ty zmierzone[deg]
+mgr  =[ 0.0998337927,0.0903857997,0.0841921154,0.0766757121,0.0703770501, ...
+0.0665978529,0.0602991909,0.0508511979,0.0445525359,0.0382538739,0.0319552119,0.0225072189];	%momenty zmierzone [Nm]
 
 
 Ttarcia=0.0050;					%zmierzony moment si³ tarcia statycznego [Nm]
