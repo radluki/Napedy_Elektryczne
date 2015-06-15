@@ -10,9 +10,9 @@ global Zs Zr R L0 L1 J U D Tz wo
 %Dane silnika oraz jego zasilania i obci¹¿enia:
 Zs=8;			%liczba zêbów stojana
 Zr=6;			%liczba zêbów wirnika
-R=20;			%rezystancja pasma [om]
-Lmin=38.4e-3;		%minimalna indukcyjnoœæ pasma [H]
-Lmax=152e-3;		%maksymalna indukcyjnoœæ pasma [H]
+R=22;			%rezystancja pasma [om]
+Lmin=44e-3;		%minimalna indukcyjnoœæ pasma [H]
+Lmax=2200e-3;		%maksymalna indukcyjnoœæ pasma [H]
 L0=(Lmax+Lmin)/2;	%wartoœæ œrednia indukcyjnoœci pasma 
 L1=(Lmax-Lmin)/2;	%amplituda 1 harmonicznej indukcyjnoœci pasma
 J=6.4e-6;		%moment bezw³adnoœci silnika (napêdu) [kg*m^2]

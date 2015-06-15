@@ -17,18 +17,18 @@ X=[ia;
 %Poni¿ej nale¿y wybraæ rodzaj sterowania pasm silnika:
 
 %Sterowanie unipolarne pe³noskokowe:
-warunek=sin(45*pi/180);
-if sin(wo*t+(45-0)*pi/180)>warunek,   Ud=U; else Ud=0; end;
-if sin(wo*t+(45-90)*pi/180)>warunek,  Uc=U; else Uc=0; end;
-if sin(wo*t+(45-180)*pi/180)>warunek, Ub=U; else Ub=0; end;
-if sin(wo*t+(45-270)*pi/180)>warunek, Ua=U; else Ua=0; end;
+% warunek=sin(45*pi/180);
+% if sin(wo*t+(45-0)*pi/180)>warunek,   Ud=U; else Ud=0; end;
+% if sin(wo*t+(45-90)*pi/180)>warunek,  Uc=U; else Uc=0; end;
+% if sin(wo*t+(45-180)*pi/180)>warunek, Ub=U; else Ub=0; end;
+% if sin(wo*t+(45-270)*pi/180)>warunek, Ua=U; else Ua=0; end;
 
 %Sterowanie unipolarne pó³skokowe:
-%warunek=sin(22.5*pi/180);
-%if sin(wo*t+(22.5-0)*pi/180)>warunek,   Ud=U; else Ud=0; end;
-%if sin(wo*t+(22.5-90)*pi/180)>warunek,  Uc=U; else Uc=0; end;
-%if sin(wo*t+(22.5-180)*pi/180)>warunek, Ub=U; else Ub=0; end;
-%if sin(wo*t+(22.5-270)*pi/180)>warunek, Ua=U; else Ua=0; end;
+warunek=sin(22.5*pi/180);
+if sin(wo*t+(22.5-0)*pi/180)>warunek,   Ud=U; else Ud=0; end;
+if sin(wo*t+(22.5-90)*pi/180)>warunek,  Uc=U; else Uc=0; end;
+if sin(wo*t+(22.5-180)*pi/180)>warunek, Ub=U; else Ub=0; end;
+if sin(wo*t+(22.5-270)*pi/180)>warunek, Ua=U; else Ua=0; end;
 
 
 %Równania silnika:
